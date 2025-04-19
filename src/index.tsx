@@ -59,7 +59,7 @@ const router = createBrowserRouter([
     element: <NotFound />
   }
 
-])
+], {basename: '/'})
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
